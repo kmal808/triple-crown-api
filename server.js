@@ -1,6 +1,9 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 const PORT = 8000
+
+app.use(cors())
 
 let tripleCrown = {
   2021: {
@@ -21,7 +24,7 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html')
 }) 
 
-app.get('/api:year', (req, res) => {
+app.get('/api/:year', (req, res) => {
   const tripleCrownYear = req.params.year.toLowerCase()
 
   if (tripleCrown[tripleCrownYear]) {
