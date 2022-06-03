@@ -72,6 +72,10 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html')
 }) 
 
+app.get('/api', (req, res) => {
+  res.json(tripleCrown)
+})
+
 app.get('/api/:year', (req, res) => {
   const tripleCrownYear = req.params.year.toLowerCase()
 
