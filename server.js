@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 
 app.get('/api:year', (req, res) => {
   const tripleCrownYear = req.params.year.toLowerCase()
-  
+
   if (tripleCrown[tripleCrownYear]) {
   res.json(tripleCrown[tripleCrownYear])
   } else {
@@ -31,6 +31,6 @@ app.get('/api:year', (req, res) => {
   }
 })
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`The server is now running on port ${PORT}!`)
 })
