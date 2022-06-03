@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const PORT = 8000
 
-const tripleCrown = {
+let tripleCrown = {
   2021: {
     'event': 'haleiwa pro',
     'winner': 'john-john florence'
