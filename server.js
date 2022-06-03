@@ -7,16 +7,64 @@ app.use(cors())
 
 let tripleCrown = {
   2021: {
-    'event': 'haleiwa pro',
-    'winner': 'john-john florence'
+    'mens': 'john-john florence',
+    'womans': 'carrisa moore'
   },
   2020: {
-    'event': 'pipe pro',
-    'winner': "jamie o'brien"
+    'mens': 'john-john florence',
+    'womans': 'carrisa moore'
+  },
+  2019: {
+    'mens': 'kelly slater',
+    'womans': 'no womans division'
+  },
+  2018: {
+    'mens': 'jesse mendes',
+    'womans': 'no womans division'
+  },
+  2017: {
+    'mens': 'griffin colapinto',
+    'womans': 'no womans divison'
+  },
+  2016: {
+    'mens': 'john-john florence',
+    'womans': 'no womans division'
+  },
+  2015: {
+    'mens': 'gabriel medina',
+    'womans': 'no womans division'
+  },
+  2014: {
+    'mens': 'julian wilson',
+    'womans': 'no womans division'
+  },
+  2013: {
+    'mens': 'john-john florence',
+    'womans': 'no womans division'
+  },
+  2012: {
+    'mens': 'sebastian zietz',
+    'womans': 'no womans division'
+  },
+  2011: {
+    'mens': 'john-john florence',
+    'womans': 'no womans division'
+  },
+  2010: {
+    'mens': 'joel parkinson',
+    'womans': 'stephanie gilmore'
+  },
+  2009: {
+    'mens': 'joel parkinson',
+    'womans': 'stephanie gilmore'
+  },
+  2008: {
+    'mens': 'joel parkinson',
+    'womans': 'stephanie gilmore'
   },
   'unknown': {
-    'event': 'unknown',
-    'winner': 'unknown'
+    'mens': 'unknown',
+    'womans': 'unknown'
   }
 }
 
