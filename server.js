@@ -297,7 +297,7 @@ app.get('/api', (req, res) => {
 })
 
 app.get('/api/:year', (req, res) => {
-  const tripleCrownYear = req.params.year.toLowerCase()
+  const tripleCrownYear = req.params.year
 
   if (tripleCrown[tripleCrownYear]) {
   res.json(tripleCrown[tripleCrownYear])
