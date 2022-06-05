@@ -5,7 +5,7 @@ const PORT = 8000
 
 app.use(cors())
 
-let tripleCrown = {
+const tripleCrown = {
   2021: {
     'mens crown winner': 'john-john florence, hawaii',
     'womans crown winner': 'carrisa moore, hawaii',
